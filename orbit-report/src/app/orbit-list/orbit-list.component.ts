@@ -10,10 +10,12 @@ import { Satellite } from '../Satellite';
 //
 
 export class OrbitListComponent implements OnInit {
-
   @Input() satellites: Satellite[];
+  zebraRow: boolean;
 
-  constructor() { }
+  constructor() {
+    this.zebraRow = false;
+  }
 
   ngOnInit(): void {
   }
@@ -29,6 +31,10 @@ export class OrbitListComponent implements OnInit {
     });
   }
 
+  zebraRowFunction(): boolean {
+    this.zebraRow = !this.zebraRow;
+    return this.zebraRow;
+  }
 
 
 }
