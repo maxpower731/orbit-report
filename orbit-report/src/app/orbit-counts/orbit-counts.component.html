@@ -1,0 +1,7 @@
+{{buildSatObj()}}
+
+<h3>Satellite Counts:</h3>
+<div class="counts">
+   <div>Total: <span>{{satellites.length}}</span></div>
+   <div *ngFor="let satellite of satelliteTypes">{{satellite}}<span>{{satObj[satellite]}}</span></div>
+</div>

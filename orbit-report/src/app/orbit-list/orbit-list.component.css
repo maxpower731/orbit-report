@@ -3,12 +3,13 @@
     color: #dd5;
 }
 
-.zebraRow {
-    background: lightgoldenrodyellow;
-}
 
 .warning {
     background-color: #da8a8a;
+}
+
+.zebraRow {
+    background: lightgoldenrodyellow;
 }
 
 table {
@@ -31,4 +32,5 @@ th, td {
     margin: 5px 10px;
     padding: 6px;
 }
+
 

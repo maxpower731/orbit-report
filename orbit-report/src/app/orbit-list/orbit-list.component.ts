@@ -18,6 +18,7 @@ export class OrbitListComponent implements OnInit {
   }
 
   ngOnInit(): void {
+
   }
 
   sort(column: string): void {
